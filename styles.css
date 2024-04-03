@@ -1,0 +1,23 @@
+.navbar {
+    position: fixed;
+    top: 25px;
+    left: 10px;
+    width: 100%;
+    background-color:transparent;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background-color: #333;
+}
+
+.nav-item {
+    padding: 15px;
+    color: #6a0b0b;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
